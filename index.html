@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+    <title>Quizz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quizz</h1>
+      <h2>Testez votre culture générale en 5 questions !</h2>
+      <form class="form-quizz">
+        <div class="question-block">
+          <h4>Qui a écrit l'opéra "Les Noces de Figaro" ?</h4>
+          <div>
+            <input type="radio" name="q1" id="mozart" value="a" checked />
+            <label for="mozart">Mozart</label>
+          </div>
+          <div>
+            <input type="radio" name="q1" id="beethoven" value="b" />
+            <label for="beethoven">Beethoven</label>
+          </div>
+          <div>
+            <input type="radio" name="q1" id="verdi" value="c" />
+            <label for="verdi">Verdi</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Quelle est la capitale des Etats-Unis d'Amérique ?</h4>
+          <div>
+            <input type="radio" name="q2" id="newyork" value="a" checked />
+            <label for="newyork">New-York</label>
+          </div>
+          <div>
+            <input type="radio" name="q2" id="washington" value="b" />
+            <label for="washington">Washington</label>
+          </div>
+          <div>
+            <input type="radio" name="q2" id="atlanta" value="c" />
+            <label for="atlanta">Atlanta</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Qui a écrit "Les Fleurs du mal" ?</h4>
+          <div>
+            <input type="radio" name="q3" id="balzac" value="a" checked />
+            <label for="balzac">Honoré de Balzac</label>
+          </div>
+          <div>
+            <input type="radio" name="q3" id="baudelaire" value="b" />
+            <label for="baudelaire">Charles Baudelaire</label>
+          </div>
+          <div>
+            <input type="radio" name="q3" id="hugo" value="c" />
+            <label for="hugo">Victor Hugo</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Quelle série met en scène Ragnar Lothbrok ?</h4>
+          <div>
+            <input type="radio" name="q4" id="feux" value="a" checked />
+            <label for="feux">Les Feux de l'amour</label>
+          </div>
+          <div>
+            <input type="radio" name="q4" id="malibu" value="b" />
+            <label for="malibu">Alerte à Malibu</label>
+          </div>
+          <div>
+            <input type="radio" name="q4" id="vikings" value="c" />
+            <label for="vikings">Vikings</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Quel pouvoir Superman ne possède t-il pas ?</h4>
+          <div>
+            <input type="radio" name="q5" id="laser" value="a" checked />
+            <label for="laser">Les yeux lasers</label>
+          </div>
+          <div>
+            <input type="radio" name="q5" id="temporel" value="b" />
+            <label for="temporel">Les sauts temporels</label>
+          </div>
+          <div>
+            <input type="radio" name="q5" id="vitesse" value="c" />
+            <label for="vitesse">Une super vitesse</label>
+          </div>
+        </div>
+        <button type="submit">Je valide mes réponses !</button>
+      </form>
+      <div class="results">
+        <h2>Cliquez sur valider pour afficher les résultats</h2>
+        <p class="help"></p>
+        <p class="rate"></p>
+      </div>
+    </div>
+  </body>
+</html>
